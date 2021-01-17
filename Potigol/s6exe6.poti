@@ -1,0 +1,21 @@
+#
+# Seção 6 Exercicio 6
+#
+
+#entrada
+imprima"Digite o codigo do funcionario: "
+codigo = leia_inteiro
+imprima"Digite o numero de horas trabalhados: "
+horas_trab = leia_real
+
+#processamento
+se horas_trab > 50 entao
+  extra = horas_trab - 50
+  horas_trab = horas_trab - extra
+  vr_h_ext = extra * 20
+  salario = horas_trab * 10 
+fim
+
+#saida
+escreva"Salario: {salario}"
+escreva"Extras: {vr_h_ext}"

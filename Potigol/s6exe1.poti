@@ -1,0 +1,18 @@
+#
+# Seção 6 Exercicio 1
+#
+
+#entrada
+imprima"Digite um valor: "
+valor = leia_inteiro
+
+#processamento
+se valor > 100 então
+  	escreva valor
+  senão
+  valor2 = 0
+  escreva valor2
+  
+fim
+
+#saida

@@ -1,0 +1,14 @@
+#
+# Seção 3 Exercicio 7
+#
+
+#entrada
+imprima"Digite sua altura: "
+altura = leia_real
+
+#processamento
+pi = (altura * 72.7) - 58
+pif = pi formato "%.3f"
+
+#saida
+escreva"Sua altura é {altura}, seu peso ideal seria de {pif} kilos"

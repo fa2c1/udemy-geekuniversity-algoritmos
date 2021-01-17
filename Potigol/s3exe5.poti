@@ -1,0 +1,13 @@
+#
+# Seção 3 Exercicio 5
+#
+
+#entrada
+imprima"Digite o valor em metros: "
+m = leia_real
+
+#processamento
+cm = m * 100
+
+#saida
+escreva"O valor de {m} metros é igual a {cm} centimetros"

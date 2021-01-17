@@ -1,0 +1,16 @@
+#
+# Seção 6 Exercicio 3
+#
+
+#entrada
+imprima"Digite um numero: "
+num = leia_inteiro
+
+#processamento
+se num mod 2 == 0 entao
+  escreva"O numero é Par!"
+   senao
+   escreva"O numero é Impar!"
+fim
+
+#saida

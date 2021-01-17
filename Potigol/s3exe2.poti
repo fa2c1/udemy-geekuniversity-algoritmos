@@ -1,0 +1,15 @@
+#
+# Seção 3 Exercicio 2
+#
+
+#entrada
+imprima"Digite a qtd minima no estoque: "
+minimo = leia_real
+imprima"Digite a qtd maxima no estoque: "
+maximo = leia_real
+
+#processamento
+estoque_medio = (minclsimo + maximo) / 2
+
+#saida
+escreva"O estoque médio é: {estoque_medio}"

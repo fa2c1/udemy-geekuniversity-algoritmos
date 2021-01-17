@@ -1,0 +1,15 @@
+#
+# Seção 3 Exercicio 4
+#
+
+#entrada
+imprima"Digite o primeiro numero: "
+n1 = leia_real
+imprima"Digite o segundo numero: "
+n2 = leia_real
+
+#processamento
+soma = n1 + n2
+
+#saida
+escreva"A soma do numero 1 e do numeo 2 é: {soma}"

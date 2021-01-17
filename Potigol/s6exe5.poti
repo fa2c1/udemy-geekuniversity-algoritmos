@@ -1,0 +1,24 @@
+#
+# Seção 6 Exercicio 5
+#
+var exc := 0.0
+var m := 0.0
+
+#entrada
+imprima"Digite a quantidade de quilos pescados: "
+p = leia_real
+#processamento
+se p > 50 entao
+  exc = p - 50
+  m = exc * 4
+  escreva"O total em Kilos pescados foi {p}"
+  escreva"O peso excedente foi de {exc} kilos"
+  escreva"O valor da multa é de RS {m}"
+  senao
+    escreva"Não houve excedentes hoje"
+    escreva"O total em Kilos pescados foi {p}"
+    escreva"O peso excedente foi de {exc} kilos"
+    escreva"O valor da multa é de RS {m}"
+fim
+
+#said

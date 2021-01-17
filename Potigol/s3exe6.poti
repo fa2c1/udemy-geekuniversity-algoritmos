@@ -1,0 +1,15 @@
+#
+# Seção 3 Exercicio 6
+#
+
+#entrada
+imprima"Digite o valor da hora tabalhada: "
+vh = leia_real
+imprima"Digite a quantodade de horas trabalhadas no mês: "
+ht = leia_real
+
+#processamento
+total = vh * ht
+
+#saida
+escreva"Seu saldo salarioa este mês é de RS {total}"

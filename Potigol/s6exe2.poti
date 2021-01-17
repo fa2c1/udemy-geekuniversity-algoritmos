@@ -1,0 +1,19 @@
+#
+# Seção 6 Exercicio 2
+#
+
+#entrada
+imprima"Digite um numero: "
+num = leia_inteiro
+
+#processamento
+se num >= 0 entao
+  a = num
+   escreva"O numero positivo é: {a}"
+   senao
+    b = num
+    escreva"O numero negativo é: {b}"
+fim
+
+#saida
+ 

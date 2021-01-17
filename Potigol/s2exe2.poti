@@ -1,0 +1,19 @@
+#
+# Seção 3 Exercicio 2
+#
+#Fala um algoritimo para somar dois numeros
+#e multiplique o resultado pelo primeiro numero
+#
+
+#entrada
+escreva"Digite o primeiro numero: "
+num1 = leia_inteiro
+escreva"Digite o segundo numero: "
+num2 = leia_inteiro
+
+#processamento
+soma = num1 + num2
+multi = soma * num1
+
+#saida
+escreva"O resultado é: {multi}"

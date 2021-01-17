@@ -1,0 +1,15 @@
+#
+# Seção 3 Exercicio 3
+#
+
+#entrada
+imprima"Digite a nota 1: "
+n1 = leia_real
+imprima"Digite a nota 2: "
+n2 = leia_real
+
+#processamento
+media = (n1 + n2) / 2
+
+#saida
+escreva"O estoque médio é: {media}"

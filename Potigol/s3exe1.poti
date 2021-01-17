@@ -1,0 +1,18 @@
+#
+# Seção 3 Exercicio 1
+#
+
+#entrada
+imprima "Informe o codigo da peça: "
+cod = leia_inteiro
+imprima "Informe o valor da peça: "
+valor = leia_real
+imprima "Informe a quantidade de peças: "
+qtd = leia_inteiro
+
+#processamento
+total = qtd * valor
+
+#saida
+escreva"Codigo da peça: {cod}"
+escreva"Valor total: {total}"
